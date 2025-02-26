@@ -25,28 +25,35 @@ Ensure you have the following installed before setting up the project:
 ## 🛠 Setup Instructions
 
 ### **1. Clone the Repository**
-```sh
+```
 git clone https://github.com/Jaiswal9782/Task-M-Mobile-Application.git
+```
+```
 cd Task-M-Mobile-Application
-
+```
 
 ##  Install Dependencies
-
+```
 npm install
-# or
+```
+ or
+ ```
 yarn install
+```
 
-
-### **1. Start the Development Serve**
-
+## Start the Development Serve
+```
 npx expo start
-# or
+```
+ or
+ ```
 yarn expo start
+```
 
 
-### **1. 📦 Project Structure**
+## 📦 Project Structure
 
-/expo-project
+expo-project
   ├── /assets       # Images and static files
   ├── /components   # Reusable components
   ├── /screens      # App screens
@@ -56,22 +63,17 @@ yarn expo start
   └── README.md     # Project documentation
 
 
-###📱 Building & Sharing the App
-### 1. Android APK (Development)
+# 📱 Building & Sharing the App
+ 1. Android APK (Development)
 eas build -p android --profile development
 
 
-#### iOS Build (Requires macOS & Apple Developer Account)
+iOS Build (Requires macOS & Apple Developer Account)
 
 eas build -p ios
 
 
-###  Share the Expo Project
-
+## Share the Expo Project
+```
 expo publish
-
-
-
-
-
 
