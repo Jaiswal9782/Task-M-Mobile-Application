@@ -52,7 +52,7 @@ yarn expo start
 
 
 ## 📦 Project Structure
-
+```
 expo-project
   ├── /assets       # Images and static files
   ├── /components   # Reusable components
@@ -61,7 +61,7 @@ expo-project
   ├── package.json  # Dependencies and scripts
   ├── app.json      # Expo configuration
   └── README.md     # Project documentation
-
+```
 
 # 📱 Building & Sharing the App
  1. Android APK (Development)
