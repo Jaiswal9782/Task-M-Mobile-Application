@@ -1,50 +1,77 @@
-# Welcome to your Expo app 👋
+# 🚀 Task-M Mobile Application (Expo React Native Project)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a **React Native project built with Expo**, designed for cross-platform mobile development. Follow the setup instructions below to get started.
 
-## Get started
+---
 
-1. Install dependencies
+## 📌 Features
+- 📱 Cross-platform support (iOS, Android, Web)
+- ⚡ Fast refresh for efficient development
+- 🔗 Easy sharing with Expo Go
+- 🔧 Simplified build process with EAS
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 📜 Prerequisites
+Ensure you have the following installed before setting up the project:
 
-   ```bash
-    npx expo start
-   ```
+- [Node.js](https://nodejs.org/) (LTS recommended)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- Git (for version control, optional)
+- [Expo Go](https://expo.dev/client) (for testing on mobile)
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠 Setup Instructions
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### **1. Clone the Repository**
+```sh
+git clone https://github.com/Jaiswal9782/Task-M-Mobile-Application.git
+cd Task-M-Mobile-Application
 
-## Get a fresh project
 
-When you're ready, run:
+##  Install Dependencies
 
-```bash
-npm run reset-project
-```
+npm install
+# or
+yarn install
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+### **1. Start the Development Serve**
 
-To learn more about developing your project with Expo, look at the following resources:
+npx expo start
+# or
+yarn expo start
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
+### **1. 📦 Project Structure**
 
-Join our community of developers creating universal apps.
+/expo-project
+  ├── /assets       # Images and static files
+  ├── /components   # Reusable components
+  ├── /screens      # App screens
+  ├── App.js        # Main entry file
+  ├── package.json  # Dependencies and scripts
+  ├── app.json      # Expo configuration
+  └── README.md     # Project documentation
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+###📱 Building & Sharing the App
+### 1. Android APK (Development)
+eas build -p android --profile development
+
+
+#### iOS Build (Requires macOS & Apple Developer Account)
+
+eas build -p ios
+
+
+###  Share the Expo Project
+
+expo publish
+
+
+
+
+
+
