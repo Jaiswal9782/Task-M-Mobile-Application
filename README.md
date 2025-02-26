@@ -65,13 +65,14 @@ expo-project
 
 # 📱 Building & Sharing the App
  1. Android APK (Development)
+```
 eas build -p android --profile development
-
+```
 
 iOS Build (Requires macOS & Apple Developer Account)
-
+```
 eas build -p ios
-
+```
 
 ## Share the Expo Project
 ```
