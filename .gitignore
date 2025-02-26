@@ -1,0 +1,5 @@
+expo-env.d.ts
+assets/.DS_Store
+/node_modules
+assets/images/.DS_Store
+*DS_Store
